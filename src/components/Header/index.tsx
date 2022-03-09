@@ -1,7 +1,6 @@
 import { HStack, Icon, Text, Image, } from '@chakra-ui/react';
 import { useRouter } from "next/router";
 import { IoIosArrowBack } from 'react-icons/io';
-import Logo from '../../../public/Logo.png';
 
 export function Header() {
     const route = useRouter();

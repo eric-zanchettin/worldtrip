@@ -21,29 +21,29 @@ export default function Home() {
           <Text color="#FFF" fontSize="36" fontFamily="Poppins">5 Continentes,<br />infinitas possibilidades.</Text>
           <Text mt="4" color="#FFF">Chegou a hora de tirar do papel a viagem que você<br />sempre sonhou. </Text>
         </Box>
-        <Image mr="24" src="Airplane.svg" alt="Ilustração de Avião" />
+        <Image mr="24" src="/assets/Airplane.svg" alt="Ilustração de Avião" />
       </Flex>
 
 
       <HStack mt="16" spacing="24" justify="center">
         <Box textAlign="center">
-          <Image src="cocktail 1.svg" alt="Ilustração de Coquetel" />
+          <Image src="/assets/cocktail 1.svg" alt="Ilustração de Coquetel" />
           <Text fontWeight="bolder" mt="6" color="gray.600">vida noturna</Text>
         </Box>
         <Box textAlign="center">
-          <Image src="surf 1.svg" alt="Ilustração de Prancha de Surfe" />
+          <Image src="/assets/surf 1.svg" alt="Ilustração de Prancha de Surfe" />
           <Text fontWeight="bolder" mt="6" color="gray.600">praia</Text>
         </Box>
         <Box textAlign="center">
-          <Image src="building 1.svg" alt="Ilustração de Arranha-Céu" />
+          <Image src="/assets/building 1.svg" alt="Ilustração de Arranha-Céu" />
           <Text fontWeight="bolder" mt="6" color="gray.600">moderno</Text>
         </Box>
         <Box textAlign="center">
-          <Image src="museum 1.svg" alt="Ilustração de Museu" />
+          <Image src="/assets/museum 1.svg" alt="Ilustração de Museu" />
           <Text fontWeight="bolder" mt="6" color="gray.600">clássico</Text>
         </Box>
         <Box textAlign="center">
-          <Image src="earth 1.svg" alt="Ilustração de Planeta Terra" />
+          <Image src="/assets/earth 1.svg" alt="Ilustração de Planeta Terra" />
           <Text fontWeight="bolder" mt="6" color="gray.600">e mais...</Text>
         </Box>
       </HStack>
@@ -77,7 +77,7 @@ export default function Home() {
             <SlideContent href="asia" title="Ásia" description="O continente mais cultural" />
           </SwiperSlide>
           <SwiperSlide>
-            <SlideContent href="noth-america" title="América do Norte" description="O continente mais movimentado" />
+            <SlideContent href="north-america" title="América do Norte" description="O continente mais movimentado" />
           </SwiperSlide>
           <SwiperSlide>
             <SlideContent href="africa" title="África" description="O continente mais quente" />

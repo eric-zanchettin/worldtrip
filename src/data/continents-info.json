@@ -1,0 +1,158 @@
+{
+    "europe": {
+        "Name": "Europa",
+        "Description": "A Europa é, por convenção, um dos seis, continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+        "Data": [50, 60, 27],
+        "Cities": [
+            {
+                "Image": "london",
+                "Name": "Londres",
+                "Country": "Reino Unido",
+                "Flag": "england"
+            },
+            {
+                "Image": "paris",
+                "Name": "Paris",
+                "Country": "França",
+                "Flag": "france"
+            },
+            {
+                "Image": "rome",
+                "Name": "Roma",
+                "Country": "Itália",
+                "Flag": "italy"
+            },
+            {
+                "Image": "prague",
+                "Name": "Praga",
+                "Country": "República Tcheca",
+                "Flag": "czech"
+            },
+            {
+                "Image": "amsterdan",
+                "Name": "Amsterdã",
+                "Country": "Holanda",
+                "Flag": "netherlands"
+            }
+        ]
+    },
+    "south-america": {
+        "Name": "América do Sul",
+        "Description": "A América do Sul é um dos subcontinentes da América. Apresenta paisagens naturais muito diversas e uma enorme biodiversidade, abrigando a maior floresta tropical do mundo.",
+        "Data": [12, 8, 17],
+        "Cities": [
+            {
+                "Image": "sao-paulo",
+                "Name": "São Paulo",
+                "Country": "Brasil",
+                "Flag": "brazil" 
+            },
+            {
+                "Image": "cusco",
+                "Name": "Cusco",
+                "Country": "Peru",
+                "Flag": "peru" 
+            },
+            {
+                "Image": "buenos-aires",
+                "Name": "Buenos Aires",
+                "Country": "Argentina",
+                "Flag": "argentina" 
+            }
+        ]
+    },
+    "asia": {
+        "Name": "Ásia",
+        "Description": "A Ásia é o maior dos continentes terrestres, localizada totalmente no hemisfério oriental, em maior parte no hemisfério setentrional e com uma pequena porção de terras no hemisfério austral. Existem, ao todo, 50 países asiáticos.",
+        "Data": [50, 2301, 32],
+        "Cities": [
+            {
+                "Image": "tokyo",
+                "Name": "Tóquio",
+                "Country": "Japão",
+                "Flag": "japan" 
+            },
+            {
+                "Image": "seul",
+                "Name": "Seul",
+                "Country": "Coréia do Sul",
+                "Flag": "south-korea" 
+            },
+            {
+                "Image": "beijing",
+                "Name": "Pequim",
+                "Country": "China",
+                "Flag": "china" 
+            }
+        ]
+    },
+    "north-america": {
+        "Name": "América do Norte",
+        "Description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (Dinamarca) e Bermudas (Britânico). Os dois primeiros países são os únicos do continente americano que estão inseridos no grupo dos países mais importantes político e economicamente.",
+        "Data": [3, 5, 21],
+        "Cities": [
+            {
+                "Image": "cancun",
+                "Name": "Cancún",
+                "Country": "México",
+                "Flag": "mexico" 
+            },
+            {
+                "Image": "toronto",
+                "Name": "Toronto",
+                "Country": "Canadá",
+                "Flag": "canada" 
+            },
+            {
+                "Image": "los-angeles",
+                "Name": "Los Angeles",
+                "Country": "Estatos Unidos",
+                "Flag": "usa" 
+            }
+        ]
+    },
+    "africa": {
+        "Name": "África",
+        "Description": "África é um dos seis continentes do mundo, sendo o terceiro maior em extensão territorial. O território estende-se por mais de 30 milhões de km², ocupando, aproximadamente, 20% da área continental da Terra. No continente vive mais de um bilhão de habitantes, fazendo dele o segundo mais populoso entre os demais.",
+        "Data": [54, 2000, 8],
+        "Cities": [
+            {
+                "Image": "cairo",
+                "Name": "Cairo",
+                "Country": "Egito",
+                "Flag": "egypt" 
+            },
+            {
+                "Image": "johannesburg",
+                "Name": "Joanesburgo",
+                "Country": "África do Sul",
+                "Flag": "south-africa" 
+            },
+            {
+                "Image": "quelimane",
+                "Name": "Quelimane",
+                "Country": "Moçambique",
+                "Flag": "mozambique" 
+            }
+        ]
+    },
+    "oceania": {
+        "Name": "Oceania",
+        "Description": "O Novíssimo Mundo, como é conhecido o conjunto de ilhas que junto com a Austrália formam a Oceania, é a maior concentração de ilhas do planeta. Seu território possui aproximadamente 8,5 milhões de km² sendo que só a Austrália ocupa cerca de 96% do total. Podemos dizer que a Austrália é o único país da Oceania, uma vez que o restante dela se constitui de inúmeras ilhas e fiordes.",
+        "Data": [14, 1.323, 2],
+        "Cities": [
+            {
+                "Image": "auckland",
+                "Name": "Auckland",
+                "Country": "Nova Zelândia",
+                "Flag": "new-zealand" 
+            },
+            {
+                "Image": "sydney",
+                "Name": "Sidney",
+                "Country": "Austrália",
+                "Flag": "australia" 
+            }
+        ]
+    }
+}

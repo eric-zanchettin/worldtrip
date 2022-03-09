@@ -12,7 +12,7 @@ export function SlideContent({ href, title, description }: SlideContentProps) {
         <Link href={`/continents/${href}`} passHref>
             <Flex
                 margin="0 auto"
-                backgroundImage={`${href}.png`}
+                backgroundImage={`/home-banners/${href}.png`}
                 h={450}
                 backgroundSize="cover"
                 backgroundPosition="center"
