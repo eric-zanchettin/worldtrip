@@ -1,4 +1,4 @@
-import { Flex, Box, Text, VStack, Image, HStack, } from "@chakra-ui/react";
+import { Flex, Box, Text, VStack, Image, } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { Header } from "../../components/Header";
 
@@ -15,12 +15,14 @@ export default function Continents() {
 
             {continentsInfo[continent] ?
                 <>
-                    <Box backgroundImage={`/page-banners/${continent}-page.png`} backgroundSize="cover" backgroundPosition="center">
+                    <Box backgroundImage={`/page-banners/${continent}-page.png`} backgroundSize="cover" backgroundPosition="center" textAlign={["center", "initial"]}>
                         <Text
                             fontSize="48px"
                             fontWeight="bold"
                             color="#FFF"
-                            p="340px 0 80px 140px"
+                            pl={["initial", 20]}
+                            pt={[20, 80]}
+                            pb={[20, 10]}
                             textShadow="2px 2px 6px black"
                         >
                             {continentsInfo[continent].Name}
@@ -28,8 +30,8 @@ export default function Continents() {
 
                     </Box>
 
-                    <Flex mt="12" ml="36" mr="36" mb="16" justify="space-between" align="center">
-                        <Box fontSize="18" textAlign="justify" w={400}>
+                    <Flex mt="12" ml={["6", "4", "4", "36"]} mr={["6", "4", "4", "36"]} mb="16" justify="space-between" align="center" flexDirection={["column", "column", "column", "initial"]}>
+                        <Box fontSize="18" textAlign="justify" w={["auto", "auto", "auto", "60%"]}>
                             {continentsInfo[continent].Description}
                         </Box>
 
@@ -46,17 +48,17 @@ export default function Continents() {
 
                     </Flex>
 
-                    <Box mb="20">
-                        <Text ml="36" mb="4" fontSize="36px" fontWeight="bold" color="gray.600">
+                    <Box mb="20" textAlign="center">
+                        <Text mb="4" fontSize="36px" fontWeight="bold" color="gray.600">
                             Cidades +100
                         </Text>
 
-                        <HStack pl="9rem" gap="20">
+                        <Flex pl={["6", "28"]} pr="6" gap="20" flexDirection={["column", "column", "column", "initial"]}> 
                             {continentsInfo[continent].Cities.map(city => {
                                 return (
-                                    <VStack borderRadius="0.5rem" boxShadow="5px 5px 20px black">
-                                        <Image src={`/cities/${city.Image}.png`} />
-                                        <Box display="flex" gap="6rem" align="center">
+                                    <VStack borderRadius="0.5rem" boxShadow="5px 5px 20px black" templateRows={["1fr 1fr", "initial"]}>
+                                        <Image src={`/cities/${city.Image}.png`} width="100%"/>
+                                        <Box display="flex" gap={["12rem", "12rem", "28rem", "6rem"]} alignItems="center" justifyContent="center">
                                             <Box fontSize="10pt">
                                                 <Text>{city.Name}</Text>
                                                 <Text color="gray">{city.Country}</Text>
@@ -68,7 +70,7 @@ export default function Continents() {
                                     </VStack>
                                 );
                             })}
-                        </HStack>
+                        </Flex>
                     </Box>
                 </>
                 :

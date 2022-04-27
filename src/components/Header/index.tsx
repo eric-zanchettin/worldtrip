@@ -9,7 +9,7 @@ export function Header() {
         <HStack
             as="header"
             display="grid"
-            gridTemplateColumns="40% 60%"
+            gridTemplateColumns={["26% 50%", "26% 50%", "37% 50%", "43% 50%"]}
             alignItems="center"
             p="4"
         >
